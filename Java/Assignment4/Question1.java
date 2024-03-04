@@ -17,8 +17,10 @@ class SBI extends Bank
 {
     float rateOfInterest=9f;
     @Override
-    public float getRateOfInterest() {
-        return this.rateOfInterest;
+    public float getRateOfInterest() 
+    {
+        super.rateOfInterest=this.rateOfInterest;
+        return super.rateOfInterest;
     }
 }
 
@@ -27,7 +29,8 @@ class PNB extends Bank
     float rateOfInterest=10f;
     @Override
     public float getRateOfInterest() {
-        return this.rateOfInterest;
+        super.rateOfInterest=this.rateOfInterest;
+        return super.rateOfInterest;
     }
 }
 
@@ -36,7 +39,8 @@ class BankOfBaroda extends Bank
     float rateOfInterest=11f;
     @Override
     public float getRateOfInterest() {
-        return this.rateOfInterest;
+        super.rateOfInterest=this.rateOfInterest;
+        return super.rateOfInterest;
     }
 }
 

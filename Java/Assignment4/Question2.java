@@ -15,6 +15,7 @@ constructor using super keyword
  {
     Derived()
     {
+        super();
         System.out.println("Derived class is called");
     }
  }
